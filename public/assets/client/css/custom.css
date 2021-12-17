@@ -1,0 +1,101 @@
+.bg-blue {
+    background-color: #302D84 !important;
+}
+.text-blue{
+    color:#302D84 ;
+}
+.font-8 {
+    font-size: 8px;
+}
+.font-10{
+    font-size: 10px;
+}
+.bg-yellow{
+    background-color: #EDD444 ;
+}
+.btn-yellow{
+    background-color: #EDD444 ;
+    color:white;
+
+}
+.btn-blue{
+    background-color: #302D84 !important;
+
+}
+
+.rotated-text{
+    transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 10px;
+
+}
+
+.table-small th, .table-small td {
+    padding: 5px !important;
+}
+
+.btn-steps {
+margin-right: 0 !important;
+}
+.dispute-tb th{
+    color: #8898aa;
+    background-color: #f6f9fc;
+}
+.report-table tbody td{
+    padding: 5px;
+}
+.rptable td, .rptable th {
+    white-space: normal;
+    padding: 0.5rem!important;
+    font-size: 0.7rem;
+}
+
+.onoffswitch {
+    position: relative; width: 65px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 30px; padding: 0; line-height: 30px;
+    border: 2px solid #E3E3E3; border-radius: 30px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 30px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 33px;
+    border: 2px solid #E3E3E3; border-radius: 30px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #5E72E4;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    border-color: #5E72E4;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px;
+}
+
+@media(max-width:768px){
+    .rotated-text{
+        transform:  translateX(0%) translateY(0%) rotate(360deg);
+        text-align: center;
+
+        position: relative;
+        left: 0;
+
+
+    }
+}
